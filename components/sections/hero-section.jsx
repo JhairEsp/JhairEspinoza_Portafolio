@@ -5,12 +5,7 @@ import { GlitchText } from "@/components/ui/glitch-text"
 import { ArrowDown, Github, Linkedin, Twitter, Whatsapp } from "lucide-react"
 
 export function HeroSection() {
-  const roles = [
-  "Creador de Soluciones Digitales",
-  "Diseñador de Experiencias",
-  "Innovador Tecnológico",
-  "Solucionador de Problemas"
-];
+const roles = ["Full Stack Developer", "Problem Solver", "Tech Innovator"]
 
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center px-4 pt-20">
