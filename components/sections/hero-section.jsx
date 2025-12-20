@@ -29,8 +29,8 @@ export function HeroSection() {
 
         {/* Description */}
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed animate-in fade-in slide-in-from-bottom-8 duration-700 delay-300">
-          Creando experiencias digitales innovadoras con código limpio y diseño centrado en el usuario. Especializado en
-          aplicaciones web modernas.
+          Creando soluciones digitales innovadoras con enfoque estratégico y diseño centrado en el usuario. 
+          Especializado en plataformas y aplicaciones modernas.
         </p>
 
         {/* CTAs */}
