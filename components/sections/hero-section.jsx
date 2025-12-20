@@ -2,10 +2,15 @@
 
 import { TypewriterText } from "@/components/ui/animated-text"
 import { GlitchText } from "@/components/ui/glitch-text"
-import { ArrowDown, Github, Linkedin, Twitter } from "lucide-react"
+import { ArrowDown, Github, Linkedin, Twitter, Whatsapp } from "lucide-react"
 
 export function HeroSection() {
-  const roles = ["Full Stack Developer", "UI/UX Enthusiast", "Problem Solver", "Tech Innovator"]
+  const roles = [
+  "Creador de Soluciones Digitales",
+  "Diseñador de Experiencias",
+  "Innovador Tecnológico",
+  "Solucionador de Problemas"
+];
 
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center px-4 pt-20">
@@ -20,7 +25,7 @@ export function HeroSection() {
         <div className="space-y-4 animate-in fade-in slide-in-from-bottom-8 duration-700 delay-200">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">
             <span className="text-foreground">Hola, soy </span>
-            <GlitchText text="Developer" className="text-primary text-glow" />
+            <GlitchText text="Jhair Espinoza" className="text-primary text-glow" />
           </h1>
           <div className="text-xl sm:text-2xl md:text-3xl text-muted-foreground font-light h-10">
             <TypewriterText texts={roles} className="text-accent" />
@@ -29,8 +34,7 @@ export function HeroSection() {
 
         {/* Description */}
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed animate-in fade-in slide-in-from-bottom-8 duration-700 delay-300">
-          Creando soluciones digitales innovadoras con enfoque estratégico y diseño centrado en el usuario. 
-          Especializado en plataformas y aplicaciones modernas.
+          Creando soluciones digitales innovadoras con enfoque estratégico y diseño centrado en el usuario. Especializado en plataformas y aplicaciones modernas.
         </p>
 
         {/* CTAs */}
@@ -54,9 +58,9 @@ export function HeroSection() {
         {/* Social Links */}
         <div className="flex items-center justify-center gap-6 pt-8 animate-in fade-in slide-in-from-bottom-8 duration-700 delay-500">
           {[
-            { icon: Github, href: "https://github.com", label: "GitHub" },
-            { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-            { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
+            { icon: Github, href: "https://github.com/JhairEsp", label: "GitHub" },
+            { icon: Linkedin, href: "https://www.linkedin.com/in/jhair-espinoza/", label: "LinkedIn" },
+            { icon: Whatsapp, href: "https://api.whatsapp.com/send?phone=51924937036", label: "Whatsapp" },
           ].map(({ icon: Icon, href, label }) => (
             <a
               key={label}
