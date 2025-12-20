@@ -2,7 +2,7 @@
 
 import { TypewriterText } from "@/components/ui/animated-text"
 import { GlitchText } from "@/components/ui/glitch-text"
-import { ArrowDown, Github, Linkedin, Twitter, Whatsapp } from "lucide-react"
+import { ArrowDown, Github, Linkedin, Twitter } from "lucide-react"
 
 export function HeroSection() {
 const roles = ["Full Stack Developer", "Problem Solver", "Tech Innovator"]
@@ -54,8 +54,7 @@ const roles = ["Full Stack Developer", "Problem Solver", "Tech Innovator"]
         <div className="flex items-center justify-center gap-6 pt-8 animate-in fade-in slide-in-from-bottom-8 duration-700 delay-500">
           {[
             { icon: Github, href: "https://github.com/JhairEsp", label: "GitHub" },
-            { icon: Linkedin, href: "https://www.linkedin.com/in/jhair-espinoza/", label: "LinkedIn" },
-            { icon: Whatsapp, href: "https://api.whatsapp.com/send?phone=51924937036", label: "Whatsapp" },
+            { icon: Linkedin, href: "https://www.linkedin.com/in/jhair-espinoza/", label: "LinkedIn" }
           ].map(({ icon: Icon, href, label }) => (
             <a
               key={label}
