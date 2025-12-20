@@ -8,7 +8,7 @@ export function AboutSection() {
 
   const highlights = [
     { icon: Code2, label: "Líneas de código", value: "500K+" },
-    { icon: Rocket, label: "Proyectos completados", value: "50+" },
+    { icon: Rocket, label: "Proyectos completados", value: "10+" },
     { icon: Coffee, label: "Tazas de café", value: "∞" },
     { icon: Palette, label: "Diseños creativos", value: "100+" },
   ]
@@ -26,7 +26,7 @@ export function AboutSection() {
             <div className="relative aspect-square max-w-md mx-auto">
               {/* Main Image */}
               <div className="relative z-10 w-full h-full rounded-2xl overflow-hidden border-2 border-primary/30">
-                <img src="/developer-working-dark-neon-aesthetic.jpg" alt="Developer" className="w-full h-full object-cover" />
+                <img src="/FotoCV.jpg" alt="Developer" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent" />
               </div>
 
@@ -42,7 +42,7 @@ export function AboutSection() {
                   </div>
                   <div>
                     <p className="text-xs text-muted-foreground">Experiencia</p>
-                    <p className="text-sm font-bold text-foreground">+5 años</p>
+                    <p className="text-sm font-bold text-foreground">+3 años</p>
                   </div>
                 </div>
               </div>
@@ -67,12 +67,10 @@ export function AboutSection() {
 
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                Soy un desarrollador full stack apasionado por crear soluciones tecnológicas innovadoras. Con más de 5
-                años de experiencia, he trabajado en proyectos que van desde startups hasta empresas Fortune 500.
+                Soy un especialista en soluciones digitales enfocado en crear herramientas tecnológicas que optimizan procesos y mejoran la experiencia de las personas. Actualmente me desarrollo en el área de sistemas, participando en proyectos de automatización, aplicaciones y análisis de información.
               </p>
               <p>
-                Mi enfoque combina código limpio, diseño intuitivo y las últimas tecnologías para construir aplicaciones
-                que no solo funcionan perfectamente, sino que también brindan experiencias memorables a los usuarios.
+                Mi enfoque combina tecnología, pensamiento estratégico y diseño centrado en el usuario para construir soluciones prácticas, eficientes y escalables, utilizando herramientas modernas y adaptándome a distintos entornos y necesidades del negocio.
               </p>
             </div>
 
