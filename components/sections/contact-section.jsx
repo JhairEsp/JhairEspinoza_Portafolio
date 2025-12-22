@@ -22,9 +22,9 @@ export function ContactSection() {
   }
 
   const contactInfo = [
-    { icon: Mail, label: "Email", value: "hola@tudominio.com", href: "mailto:hola@tudominio.com" },
-    { icon: MapPin, label: "Ubicación", value: "Ciudad, País" },
-    { icon: Phone, label: "Teléfono", value: "+1 234 567 890", href: "tel:+1234567890" },
+    { icon: Mail, label: "Email", value: "jhairoswaldo@gmail.com", href: "mailto:hola@tudominio.com" },
+    { icon: MapPin, label: "Ubicación", value: "Lima, Perú" },
+    { icon: Phone, label: "Teléfono", value: "+51 924 937 036", href: "https://api.whatsapp.com/send?phone=51924937036" },
   ]
 
   return (
