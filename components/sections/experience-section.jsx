@@ -6,8 +6,8 @@ import { Briefcase, Calendar, MapPin } from "lucide-react"
 const experiences = [
   {
     id: 1,
-    company: "Tech Corp",
-    logo: "/tech-company-logo.jpg",
+    company: "Clinica SANNA",
+    logo: "/LogoSanna.jpg",
     position: "Senior Frontend Developer",
     location: "San Francisco, CA",
     type: "Remoto",
