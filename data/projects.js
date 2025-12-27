@@ -78,11 +78,12 @@ export const skills = [
   { name: "JavaScript", level: 95, category: "frontend" },
   { name: "React", level: 92, category: "frontend" },
   { name: "Next.js", level: 88, category: "frontend" },
+  {name:  "Flutter", level:88 ,category :"frontend"},
   { name: "Node.js", level: 85, category: "backend" },
   { name: "Python", level: 80, category: "backend" },
   { name: "PostgreSQL", level: 82, category: "backend" },
   { name: "TypeScript", level: 87, category: "frontend" },
   { name: "Docker", level: 75, category: "devops" },
   {name:  "SAP",level: 80,category:"devops"},
-  {name:  "Power Bi",level: 70, category:"devops"}
+  {name:  "Power Bi",level: 80, category:"devops"}
 ]
