@@ -61,10 +61,10 @@ const experiences = [
   {
     id: 4,
     company: "Velcco | Target Outsourcing",
-    logo: "/LogoValere.jpg",
+    logo: "/LogoVelcco.jpg",
     position: "Mobile Developer",
     location: "Lima, Perú",
-    type: "Remoto",
+    type: "Presencial",
     startDate: "Feb 2023",
     endDate: "Ago 2023",
     description:
