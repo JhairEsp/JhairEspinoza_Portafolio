@@ -83,4 +83,6 @@ export const skills = [
   { name: "PostgreSQL", level: 82, category: "backend" },
   { name: "TypeScript", level: 87, category: "frontend" },
   { name: "Docker", level: 75, category: "devops" },
+  {name:  "SAP",level: 80,category:"devops"},
+  {name:  "Power Bi",level: 70, category:"devops"}
 ]

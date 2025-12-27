@@ -9,10 +9,10 @@ export function SkillsSection() {
   const [ref, isVisible] = useIntersection({ threshold: 0.2 })
 
   const techStack = [
-    { icon: Layers, label: "Frontend", items: ["React", "Next.js", "Vue", "Tailwind"] },
-    { icon: Database, label: "Backend", items: ["Node.js", "Python", "PostgreSQL", "MongoDB"] },
-    { icon: Cloud, label: "Cloud", items: ["AWS", "Vercel", "Docker", "CI/CD"] },
-    { icon: Cpu, label: "Tools", items: ["Git", "Figma", "VS Code", "Linux"] },
+    { icon: Layers, label: "Frontend", items: ["React", "Next.js", "Vue", "Tailwind","Javascript","Flutter","ReactNative"] },
+    { icon: Database, label: "Backend", items: ["Node.js", "Python", "PostgreSQL", "MongoDB","SQL"] },
+    { icon: Cloud, label: "Cloud", items: ["AWS", "Vercel", "Docker"] },
+    { icon: Cpu, label: "Tools", items: ["Git", "Figma", "VS Code", "Linux","SAP","Power Bi"] },
   ]
 
   return (
