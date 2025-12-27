@@ -65,8 +65,8 @@ const experiences = [
     position: "Mobile Developer",
     location: "Lima, Perú",
     type: "Presencial",
-    startDate: "Feb 2023",
-    endDate: "Ago 2023",
+    startDate: "Mar 2021",
+    endDate: "Feb 2023",
     description:
       "Soporte de Sistemas orientado a la resolución de incidencias técnicas, mantenimiento de equipos, monitoreo de sistemas y atención a usuarios finales, asegurando la disponibilidad operativa y la continuidad de los servicios tecnológicos.",
     technologies: ["JavaScript", "Flutter", "ReactNative", "Dart", "PostMan"],
